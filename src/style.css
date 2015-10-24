@@ -1,0 +1,49 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.separator {
+  border-top: 2px solid #000;
+}
+
+.muted {
+  font-style: italic;
+  color: #555;
+  font-size: 1rem;
+}
+
+.pull-left {
+  float: left;
+  width: 40%;
+}
+
+.pull-right {
+  float: right;
+  width: 40%;
+}
+
+.correct {
+  color: #f00;
+}
+
+.incorrect {
+  color: #0f0;
+}
+
+.speech {
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
