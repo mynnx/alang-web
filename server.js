@@ -6,7 +6,9 @@ var app = require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
-server.listen(8070);
+app.set('port', (process.env.PORT || 5000));
+app.use(express.static(__dirname + '/dist'));
+server.listen(app.get('port'));
 
 var globalState = [];
 
@@ -29,5 +31,3 @@ app.get('/api', (req, res) => {
     res.json(correction);
   })
 });
-
-app.use(express.static('dist'));
