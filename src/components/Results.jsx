@@ -1,6 +1,5 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
-import Correction from './Correction';
 import {connect} from 'react-redux';
 
 export const Results = React.createClass({
