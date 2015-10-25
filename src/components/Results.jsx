@@ -14,7 +14,7 @@ export const Results = React.createClass({
             </div>
             <div className="separator"></div>
             <div className="pull-right">
-              <p className="muted">But you probably meant to say:</p>
+              <p className="muted">Here's a better way to say that:</p>
               <p className="speech correct">{correction.result}</p>
             </div>
           </div>
