@@ -7,7 +7,7 @@ Real-time (React / Redux / Socket.io / Express) API and interface for our Hackin
 ![](http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/312/730/datas/gallery.jpg)
 
 # How it works
-API requests are funneled through Ginger Software's API for grammar correction and sent back to the client via SocketIO.
+API requests are funneled through Ginger Software's API for grammar correction and sent to all connected web clients via SocketIO.
 
 On the client, Redux's store is initialized using the data from SocketIO and used to render the components in the main application view.
 
